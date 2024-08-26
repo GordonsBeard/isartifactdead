@@ -7,7 +7,7 @@ http://www.isartifactdead.com
 ---
 
 ### What
-This website currently lists how many people are currently playing Artifact.
+This website currently lists how many people are currently playing Artifact. It also tracks the player count of a few other card games that were around at the same time as Artifact, but that's only visible if you view-source in the browser.
 
 ### Why
 Petty spite. On the Artifact Steam Forums, shortly after the launch of Artifact, a heated topic of discussion was "is Artifact dying/going to die?". 
@@ -21,10 +21,14 @@ Instead it is I who is the fool for caring this hard.
 ### When
 This was built in a weekend sometime before the actual death of Artifact. 
 
-Someone wrote a silly article about it: https://www.thegamer.com/isartifactdead-dot-com-artifact/
+It is no longer archived, the code long since deleted, but at one point the text would say "Yes, there are only X players. (That's less than [other_game]!)". But then the player count cratered under every other card game on steam and so it was text that was never seen. Once the player count was consistently under 300 it was switched to just saying "Oof." instead of a player count comparison.
+
+Then once the game was actually canceled by Valve, a second time, the website was switched the state you see today. Just a static offering of condolences in the most poster-brained way possible. rip in piss ashes to asses etc etc.
+
+Somepoint after the death of the game someone wrote a silly article about it: https://www.thegamer.com/isartifactdead-dot-com-artifact/
 
 ### Who
-I did this. I really liked Artifact and I was actually p. embarrased my epic own blew up in my face just as immediate as the game blew up in Valve's face.
+I did this. I really liked Artifact and I was actually p. embarrased my "epic pwnage" blew up in my face immediately.
 
 ### How
 (this is for future me when I inevitably nuke the webserver its running on and I need a how-to, again)
