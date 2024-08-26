@@ -2,7 +2,7 @@
 
 tldr: yes.
 
-http://www.isartifactdead.com
+https://www.isartifactdead.com
 
 ---
 
