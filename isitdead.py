@@ -5,14 +5,12 @@ import pickle
 import time
 
 from dotenv import load_dotenv
-from flask import render_template
+from flask import Flask, render_template
 from steam.webapi import WebAPI  # type: ignore
 
-from isitdead import app
-
+app = Flask(__name__)
 GAMES_CACHE_FILENAME = "games.cache"
-basedir = os.path.abspath(os.path.dirname(__file__))
-load_dotenv(os.path.join(basedir, ".env"))
+load_dotenv(".env")
 STEAM_API_KEY = os.environ.get("STEAM_API_KEY")
 
 
