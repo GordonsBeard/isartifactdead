@@ -10,7 +10,8 @@ from steam.webapi import WebAPI  # type: ignore
 
 app = Flask(__name__)
 GAMES_CACHE_FILENAME = "games.cache"
-load_dotenv(".env")
+basedir = os.path.abspath(os.path.dirname(__file__))
+load_dotenv(os.path.join(basedir, ".env"))
 STEAM_API_KEY = os.environ.get("STEAM_API_KEY")
 
 
