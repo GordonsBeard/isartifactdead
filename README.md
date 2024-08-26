@@ -34,4 +34,9 @@ I did this. I really liked Artifact and I was actually p. embarrased my "epic pw
 (this is for future me when I inevitably nuke the webserver its running on and I need a how-to, again)
 1. clone it
 2. install requirements.txt
-3. serve it TODO WHAT DOES THIS MEAN
+3. create .env file with STEAM_API_KEY=api_key
+4. install nginx, create a site in sites-enabled
+5. install gunicorn as wsgi
+6. install supervisor to keep this all running (use the isitdead_app.conf)
+
+follow this guide dummy: https://www.linode.com/docs/guides/flask-and-gunicorn-on-ubuntu/#copy-your-flask-app-to-your-linode
