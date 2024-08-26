@@ -20,7 +20,7 @@ a:hover {
 #deadbox { 
     font-family:  Verdana, Geneva, sans-serif;
     display: flex;
-    -content: center;
+    justify-content: center;
     align-items: center;
 }
 #deadbox > div { 
