@@ -1,0 +1,43 @@
+body { 
+	background-color: #1b2838; 
+	color: #FFF; 
+	background-position: center top; 
+	background-repeat: no-repeat; 
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #e1e1e1;
+	border-bottom: 0;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px #fff dotted;
+}
+
+#deadbox { 
+    font-family:  Verdana, Geneva, sans-serif;
+    display: flex;
+    -content: center;
+    align-items: center;
+}
+#deadbox > div { 
+    text-align: center;
+    padding-top: 60px;
+}
+
+.b {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.c {
+    margin-top: 18px;
+    margin-bottom: 9px;
+    display: block;
+    font-size: .6em;
+    font-style: italic;
+}
