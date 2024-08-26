@@ -5,10 +5,11 @@ import pickle
 import time
 
 from dotenv import load_dotenv
-from flask import Flask, render_template
+from flask import render_template
 from steam.webapi import WebAPI  # type: ignore
 
-app = Flask(__name__)
+from isitdead import app
+
 GAMES_CACHE_FILENAME = "games.cache"
 basedir = os.path.abspath(os.path.dirname(__file__))
 load_dotenv(os.path.join(basedir, ".env"))
