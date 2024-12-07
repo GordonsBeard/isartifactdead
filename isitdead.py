@@ -116,7 +116,7 @@ def home():
 
     return render_template(
         "home.html",
-        raw_count=int(classic_count) + int(foundry_count)
+        raw_count=int(classic_count) + int(foundry_count),
         player_count=player_count,
         top5=top_five(sorted_games),
         explain=explain,
