@@ -11,12 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
 	</head>
-	<body style="background-image: url('/static/img/{% if player_count > 1000 %}notdeadbg.jpg{% else %}deadbg.jpg{% endif %}');">
+	<body style="background-image: url('/static/img/{% if raw_count > 1000 %}notdeadbg.jpg{% else %}deadbg.jpg{% endif %}');">
 		<div id="deadbox">
 			<div>
 				<h1>Is Artifact a dead game?</h1>
 				<img src="/static/img/artifact_logo_bw.png" />
-				{% if player_count > 1000 %}
+				{% if raw_count > 1000 %}
 				<h1>No?!</h1>
 				{% else %}
 				<h1><a href="https://store.steampowered.com/news/app/583950/view/3047218819080842820">Yes</a></h1>
