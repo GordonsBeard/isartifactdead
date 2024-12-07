@@ -108,8 +108,8 @@ def home():
     games = get_cache()["games"]
     sorted_games = sorted(games, key=lambda x: x.players, reverse=True)
 
-    classic_count = f"{games[0].players:,}"
-    foundry_count = f"{games[1].players:,}"
+    classic_count = f"{1,550}".replace(",", "")
+    foundry_count = f"{12}".replace(",", "")
 
     player_count = str(int(classic_count) + int(foundry_count))
     explain = f"{classic_count} classic + {foundry_count} foundry players"
