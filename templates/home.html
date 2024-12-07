@@ -15,7 +15,11 @@
 		<div id="deadbox">
 			<div>
 				<h1>Is Artifact a dead game?</h1>
+				{% if raw_count >= 1000 %}
+				<img src="/static/img/artifact_logo.png" />
+				{% else %}
 				<img src="/static/img/artifact_logo_bw.png" />
+				{% endif %}
 				{% if raw_count > 1000 %}
 				<h1>No?!</h1>
 				{% else %}
